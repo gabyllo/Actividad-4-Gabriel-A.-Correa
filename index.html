@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Actividad 3 - Gabriel Alberto Correa Tolentino</title>
+</head>
+<h1>Participante: Gabriel Alberto Correa Tolentino</h1>
+<body>
+    <h2>Crear una Tabla Avanzada. </h2>
+    <thead>
+        <table border="1">
+            <tr>
+                <th>Lugar de trabajo</th>
+                <th>N. Empleado</th>
+                <th>Nombre</th>
+                <th>Posición</th>
+                <th>Altura</th>
+                <th>Peso</th>
+                <th>Sexo</th>
+                <th>Edad</th>
+                <th>Descripción</th>
+                <th>Pago</th>
+            </tr>
+            <tr>
+                <th>Oficina</th>
+                <th>007</th>
+                <th>Roberto Jiménez</th>
+                <th>Analista</th>
+                <th>1.70m</th>
+                <th>75kg</th>
+                <th>Masculino</th>
+                <th>35</th>
+                <th>Analítico y metódico</th>
+                <th>$2200</th>
+            </tr>
+            <tr>
+                <th>Oficina</th>
+                <th>003</th>
+                <th>Juan Rodríguez</th>
+                <th>Contador</th>
+                <th>1.78m</th>
+                <th>72kg</th>
+                <th>Masculino</th>
+                <th>40</th>
+                <th>Preciso y organizado</th>
+                <th>$2500</th>
+            </tr>
+            <tr>
+                <th>Fábrica</th>
+                <th>005</th>
+                <th>Carlos Ramírez</th>
+                <th>Técnico</th>
+                <th>1.80m</th>
+                <th>90kg</th>
+                <th>Masculino</th>
+                <th>38</th>
+                <th>Amplia experiencia en reparación</th>
+                <th>$1800</th>
+            </tr>
+            <tr>
+                <th>Oficina</th>
+                <th>001</th>
+                <th>José Gómez</th>
+                <th>Gerente</th>
+                <th>1.75m</th>
+                <th>80kg</th>
+                <th>Masculino</th>
+                <th>45</th>
+                <th>Liderazgo fuerte, orientado a resultados</th>
+                <th>$3000</th>
+            </tr>
+            <tr>
+                <th>Fábrica</th>
+                <th>002</th>
+                <th>Ana Pérez</th>
+                <th>Operaria</th>
+                <th>1.60m</th>
+                <th>65kg</th>
+                <th>Femenino</th>
+                <th>32</th>
+                <th>Experta en maquinaria</th>
+                <th>$1200</th>
+            </tr>
+            <tr>
+                <th>Almacén</th>
+                <th>004</th>
+                <th>Lucía Fernández</th>
+                <th>Jefa de inventario</th>
+                <th>1.68m</th>
+                <th>68kg</th>
+                <th>Femenino</th>
+                <th>29</th>
+                <th>Excelente gestión de stock</th>
+                <th>$2000</th>
+            </tr>
+            <tr>
+                <th>Fábrica</th>
+                <th>008</th>
+                <th>Sofía Morales</th>
+                <th>Supervisora</th>
+                <th>1.65m</th>
+                <th>62kg</th>
+                <th>Femenino</th>
+                <th>30</th>
+                <th>Enfocada en calidad y eficiencia</th>
+                <th>$2500</th>
+            </tr>
+            <tr>
+                <th>Almacén</th>
+                <th>009</th>
+                <th>Mario Torres</th>
+                <th>Encargado de logística</th>
+                <th>1.85m</th>
+                <th>85kg</th>
+                <th>Masculino</th>
+                <th>42</th>
+                <th>Organizado y eficiente</th>
+                <th>$2700</th>
+            </tr>
+            <tr>
+                <th>Oficina</th>
+                <th>006</th>
+                <th>Laura Martínez</th>
+                <th>Asistente</th>
+                <th>1.62m</th>
+                <th>60kg</th>
+                <th>Femenino</th>
+                <th>25</th>
+                <th>Organizada y puntual</th>
+                <th>$1400</th>
+            </tr>
+            <tr>
+                <th>Almacén</th>
+                <th>010</th>
+                <th>Manuel Domínguez</th>
+                <th>Ayudante</th>
+                <th>1.74m</th>
+                <th>76kg</th>
+                <th>Masculino</th>
+                <th>28</th>
+                <th>Proactivo y eficiente en tareas manuales</th>
+                <th>$1300</th>
+            </tr>
+        </table>
+    </thead>
+    <thead>
+    <h2>Crear formulario que contenga las sigientes opciones de:</h2>
+    <h4>I. Entrada de texto</h4>
+    <h4>II. selección múltiple</h4>
+    <h4>III. checkin</h4>
+    <br></br>
+    <h5>Entrada de texto</h5>
+    <input type="text" id="entrada" placeholder="Escribe tu lugar de trabajo...">
+    <button onclick="mostrarTexto(entrada)">Entrada de Texto</button>
+    <br></br>
+    <input type="text" id="entrada" placeholder="Escribe tu N. Empleado...">
+    <button onclick="mostrarTexto()">Entrada de Texto</button>
+    <br></br>
+    <input type="text" id="entrada" placeholder="Escribe aquí Nombre...">
+    <button onclick="mostrarTexto()">Entrada de Texto</button>
+    <br></br>
+    <input type="text" id="entrada" placeholder="Escribe aquí Posición...">
+    <button onclick="mostrarTexto()">Entrada de Texto</button>
+    <br></br>
+    <input type="text" id="entrada" placeholder="Escribe aquí Altura...">
+    <button onclick="mostrarTexto()">Entrada de Texto</button>
+    <br></br>
+    <input type="text" id="entrada" placeholder="Escribe aquí Peso...">
+    <button onclick="mostrarTexto()">Entrada de Texto</button>
+    <br></br>
+    <input type="text" id="entrada" placeholder="Escribe aquí Sexo...">
+    <button onclick="mostrarTexto()">Entrada de Texto</button>
+    <br></br>
+    <input type="text" id="entrada" placeholder="Escribe aquí Edad...">
+    <button onclick="mostrarTexto()">Entrada de Texto</button>
+    <br></br>
+    <input type="text" id="entrada" placeholder="Escribe aquí Descripción...">
+    <button onclick="mostrarTexto()">Entrada de Texto</button>
+    <br></br>
+    <input type="text" id="entrada" placeholder="Escribe aquí el Pago...">
+    <button onclick="mostrarTexto()">Entrada de Texto</button>
+    <br></br>
+    </thead>
+    
+    <thead>
+        <h5>Selección Múltiple</h5>
+       
+        <select multiple size="8">
+            <option value="Juan Pérez">Juan Pérez</option>
+            <option value="María López">María López</option>
+            <option value="Carlos Martínez">Carlos Martínez</option>
+            <option value="Ana Gómez">Ana Gómez</option>
+            <option value="Pedro Fernández">Pedro Fernández</option>
+            <option value="Laura Sánchez">Laura Sánchez</option>
+            <option value="Javier Torres">Javier Torres</option>
+            <option value="Claudia Ruiz">Claudia Ruiz</option>
+            <option value="David Herrera">David Herrera</option>
+            <option value="Sofía Morales">Sofía Morales</option>
+    </thead>
+    
+    <thead>
+        
+       <select></select>
+        <form>
+           <h5>Checkin</h5>
+            <label>
+                <input type="checkbox" name="empleado1" value="Juan Pérez">
+                Juan Pérez
+            </label><br>
+    
+            <label>
+                <input type="checkbox" name="empleado2" value="María López">
+                María López
+            </label><br>
+    
+            <label>
+                <input type="checkbox" name="empleado3" value="Carlos Martínez">
+                Carlos Martínez
+            </label><br>
+    
+            <label>
+                <input type="checkbox" name="empleado4" value="Ana Gómez">
+                Ana Gómez
+            </label><br>
+    
+            <label>
+                <input type="checkbox" name="empleado5" value="Pedro Fernández">
+                Pedro Fernández
+            </label><br>
+    
+            <label>
+                <input type="checkbox" name="empleado6" value="Laura Sánchez">
+                Laura Sánchez
+            </label><br>
+    
+            <label>
+                <input type="checkbox" name="empleado7" value="Javier Torres">
+                Javier Torres
+            </label><br>
+    
+            <label>
+                <input type="checkbox" name="empleado8" value="Claudia Ruiz">
+                Claudia Ruiz
+            </label><br>
+    
+            <label>
+                <input type="checkbox" name="empleado9" value="David Herrera">
+                David Herrera
+            </label><br>
+    
+            <label>
+                <input type="checkbox" name="empleado10" value="Sofía Morales">
+                Sofía Morales
+            </label><br>
+            
+            <input type="submit" value="Enviar">
+        </form>
+    </thead>
+
+</body>
+</html>
